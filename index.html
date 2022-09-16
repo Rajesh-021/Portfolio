@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+    .sepboth{
+        display: grid;
+          grid-template-columns: 3fr 10fr;
+          
+    position: fixed;
+    
+
+        }
+    .passtype{
+       border: 8px solid black;
+       border-radius: 450px;
+    }
+    .header{
+        align-items: center;
+        text-align: center;
+    background-color: black;
+    font-family: arial;
+    color: white;
+    height: 730px;
+    
+    }
+    figure{
+        font-size: 26px;
+        font-weight: bold;
+
+    }
+    ul{
+        list-style: none;
+        padding: 50px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .icon span{
+        border: 9px solid gray;
+        border-radius: 40px;
+        background-color: gray;
+        color: black;
+        font-size: 15px;
+        margin-right: 10px;
+
+    }
+    li{
+        line-height: 50px;
+    }
+    li span{
+        margin-right: 10px;
+    }
+    .mainimg{
+        height: 1050px;
+        position: fixed;
+    }
+    .midimg{
+        margin-top: -500px;
+        margin-left: 90px;
+        color:white;
+        
+    }
+    marquee{
+        width: 100px;
+        height: 20px;
+    }
+</style>
+</head>
+<body>
+  <div class="sepboth">
+    <header>
+        <div class="header">
+        <div class="picname">
+        <figure>
+            <img src="./public/images/myimg2.JPG" width="40%"  class="passtype">
+            <figcaption>Rajesh Swain</figcaption>
+        </figure>
+    </div>
+        <div class="icon">
+            <nav>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-skype"></span>
+            <span class="bi bi-linkedin"></span>
+        </nav>
+        </div>
+        <div>
+            <ul>
+                <li><span class="bi bi-house-fill"></span> Home</li>
+            
+                <li ><span class="bi bi-person-fill"></span>About </li>
+                <li><span  class="bi bi-file-earmark"></span>Resume</li>
+                <li ><span  class="bi bi-journal-album"></span>Portfolio</li>
+                <li ><span class="bi bi-hdd-stack"></span>Services</li>
+                <li><span  class="bi bi-envelope"></span>Contact</li>
+            </ul>
+        </div>
+        <div>
+            &copy; Copyright Iportfolio
+        </div>
+    
+    </div>  
+    </header>
+    <section>
+        <div  class="mainimg">
+      <img src="./public/images/myimg.JPG" width="185%" height="70%">
+      <div class="midimg">
+      <h2>Rajesh Swain</h2>
+      I AM<marquee behavior="alternate" direction="up"> Developer</marquee> 
+    </div>
+    </div>
+    </section>
+  </div>
+</body>
+</html>
